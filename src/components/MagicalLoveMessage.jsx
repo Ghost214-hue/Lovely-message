@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 const MagicalLoveMessage = () => {
   const [messageRevealed, setMessageRevealed] = useState(false);
   const [sparkles, setSparkles] = useState([]);
-  const herName = "My Love"; // CHANGE THIS
-  const yourName = "Your Name"; // CHANGE THIS
+  const herName = "Ayila"; // CHANGE THIS
+  const yourName = "Karenju"; // CHANGE THIS
 
   const createSparkle = () => {
     const newSparkle = {
